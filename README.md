@@ -6,3 +6,8 @@
 <li> Download and install Anaconda3 from the NUIT software centre (via the Start menu of your PC);</li> 
 <li> Open the Spyder program and copy/paste this phrase: "pip install fuzzywuzzy Levenshtein python-Levenshtein RapidFuzz python-dotenv" into the Spyder console (bottom right of the screen), then hit "Enter". This will install the few non-standard packages that you'll need. Further information about each of these packages is available at the <a href="https://pypi.org/">Python package index</a>.</li>
 </ul>
+<p>Here are some examples of generated html pages; 
+<a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-mi.html"> NES1404 Module Information</a>
+<a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-AI.html"> NES1404 Assessment Information</a>
+<a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-AI.html"> NES1404 Module Contacts</a>
+</p>

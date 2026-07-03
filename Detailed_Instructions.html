@@ -1,0 +1,44 @@
+<div style="font-family: Arial, sans-serif; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+
+    <span id="HTMLAnchor1" style="font-size: 12pt;">
+	<h2 style = "text-align: center">Instructions</h3>
+	</br>
+	<h3>Step 1: Configure the Program Files and Folders</h3>
+	<p>From the landing page on Github, click the green "Code" button and select "Download ZIP". When you extract the zipped file on your own PC, it will naturally extract into the correct file and folder structure. The correct file tree structure is shown within this file:   
+	<p>Note the folder entitled "MOF Files" which contains sub-folders labelled "XLSX MOFs" and "XML MOFs". You will deposit the XML and XLSX versions of MOFs in these folders.  
+	</p>
+	<h3>Step 2: Download MOFs (module outline forms)</h3>
+	<p>Download the module outline forms that you will need. First navigate to the university's MOF database (and log in): <a href="https://apps.ncl.ac.uk/MOFS/Module">MOF Database</a> and click on the "Reports" tab. For each module that you are generating pages for, enter the module code, and the academic year (26/27), then click "View Report". Click on the down-arrow next to the "floppy disk" icon. You will need to download each MOF in each of two different formats: "Excel" and "XML file with report data".  
+	</p>
+	<p>When you are first getting started, I recommend you download the files for only a small number of MOFs (no more than 10). When you become more familiar with the programs, you will be able to generate pages across hundreds of modules at a time, if you wish.</p> 
+	<p>The quickest way to download MOFs for many courses is to stay on the MOFs database page while letting your PC download each file with the default filename (as selected by your PC) initially into your "Downloads" folder (ie the default location for downloads). Don't waste your time re-naming all the files as you go!</p>
+	<p>When you have downloaded all the MOFs that you need, move the XML versions from your "Downloads" folder into the "XML MOFs" sub-folder of your "MOF Files" folder (see Step 1), and move the XLSX versions from "Downloads" into the "XLSX MOFs" sub-folder of the "MOF Files" folder (again see Step 1).<p>
+	<h3>Step 3: Run the MOF file re-namer programs</h3>
+	<p>With the files and folders correctly configured (and all the MOFs in the correct sub-folders as identified above), run the "xml MOF renamer.py" and then the "xlsx MOF renamer.py" programs. These will helpfully re-name all of your downloaded MOFs according to their correct module codes.</p>  
+	<h3>Step 4: Run the Module Data Aggregator</h3>
+	<p>With the files and folders correctly configured (and all the MOFs in the correct sub-folders as identified above), run the "Module Data Aggregator.py" program. Open and view the "Aggregated_Module_Data.xlsx" file that it generates. Don't move this file- the programs used by the next few steps need to read from it.</p>  
+	<h3>Step 5: Run the Module Assessment Page Creator</h3>
+	<p>With the files and folders correctly configured (and all the MOFs in the correct sub-folders as identified above), run the "Module Assessment Page Creator.py" program. You will see a folder called "Assessment Information Pages" generated. Take a look inside this folder and open each file to view the results of your work. At this stage, the blue buttons will link to "placeholder" pages (you can change this later).</p>  
+	<h3>Step 6: Run the Module Information Page Creator</h3>
+	<p>With the files and folders correctly configured (and all the MOFs in the correct sub-folders as identified above), run the "Module Information Page Creator.py" program. You will see a folder called "Module Information Pages" generated. Take a look inside this folder and open each file to view the results of your work. This program takes longer to run than the Module Assessment Page Creator but will still be finished within a few minutes.</p>  
+	<h3>Step 7: Create a "Module Contacts Initialisation File.xlsx" file</h3>
+	<p>Run "Initialise Module Contacts.py". Provided all your files and folders are correctly configured (see above), this will generate "Module Contacts Initialisation File.xlsx". Open this file in Excel and look at the contents. Staff e-mail address and office addresses should now be manually entered into columns C and D respectively. You could just miss out this "manual entry" step, particularly if you don't have the required directory of staff addresses to hand- but then the generated pages will be created without this information (staff will need to manually update Canvas with the information later). Once you have finalised the information in this file, save it as "School Contact Details.xlsx"</p>  
+	<h3>Step 8: Run the Module Contacts Page Creator</h3>
+	<p>Now run the "Module Contacts Page Creator.py" program, this program works quickly (within a few seconds). You will see a folder called "Module Contacts Pages" generated. Take a look inside the folder and open each file to view the results of your work. You can keep and use either the pages which have spaces for photos, or the ones that don't, as you wish.</p>  
+	<h3>Step 9: Customisations!</h3>
+	<p>Now you know how everything works on a basic level, you will need to customise the page creation for your School. Let's get the blue button links on the Assessment Information pages working.... 
+	<ol type="A">
+	<li>Open the "Templates" folder, you will see it contains generic html templates for different kinds of assessment. The idea is that you can use these generic templates as the starting points for Pages hosted on your own School's Canvas Community (this needs to be a Canvas Community that is accessible to your undergraduates).</li>
+	<li>Pick one of the templates. Open it in a basic text editor such as Notepad++, which will display the html-coded instructions, then "Copy" (Ctrl + C) the entire contents of the file.</li>  
+	<li>Next, go into your School's Canvas Community, click to "Pages" (in the left panel), then (at the top of the screen) click the "View all pages" button, then (looking at the top right of the screen) click "+ Page".  You will now see the screen that you would use to enter content for a new Canvas Page. Switch to the raw html editor (it's a button at the bottom of the text window that looks like this "&lt\&gt". Now, paste (Ctrl + V) the html code (which you'd "copied" in the previous step) into the window. It will provide the initial content for your created page. Now you can switch back to the basic Page editor (by clicking the "&lt\&gt" button again) and amend the page as you wish.</li>   
+	<li>After clicking "Save" on the Canvas Page you have created, then "Copy" (Ctrl + C) the URL of the Canvas Page you've created from the address bar of your web browser. This URL will start with something like "https://ncl.instructure.com/courses/....".</li>  
+	<li>Returning to your MOF-to-HTML converter files and folders, open the "File Addresses.env" file (which you will find in the top folder) in a basic text editor such as Notepad++. This file contains the URL's for the blue-button links created by the program. The link for your instructions about written exams should be pasted (Ctrl + V) in to become the WRITTEN_EXAMS_PAGE_SLUG. That line will then look something like "WRITTEN_EXAMS_PAGE_SLUG = 'https://ncl.instructure.com/courses/....'</li>   
+	<li>Now is probably a good point to do a test. Having completed A-E in this "Customisations!" section, go back and repeat Step 5 above (run the module assessment page creator). Within your generated pages, is the page that you've just created successfully reached when you click on the appropriate blue-button link?'</li>   
+	<li>If the previous step worked, you can now do the same (do A-E of this "Customisations!" section) for all of the other template pages, to generate your template information for coursework, digital exams and take-home exams as needed. Each time you create and link to a new page, you can check whether your created blue-button link works by re-running the module assessment page creator.</li>
+	<li>You should update the e-mail address given as the ADMIN_CONTACT within "File Addresses.env" to be correct for your School. This e-mail address is displayed at the bottom of generated pages as part of a signature. Repeating Steps 4-7 as required will generate new pages that reflect all your customisations.</li>
+	</ol></p>
+	<h3>Step 10: Call for Help!</h3>
+	<p>If you get stuck, contact me on Nick.Walker@newcastle.ac.uk.</p>  
+
+
+</div>

@@ -11,5 +11,6 @@
 <li><a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-mi.html"> NES1404 Module Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-AI.html"> NES1404 Assessment Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-AI.html"> NES1404 Module Contacts</a></li>
 <li><a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1401-mi.html"> NES1401 Module Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1401-ai.html"> NES1401 Assessment Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/nes1401-mc.html"> NES1401 Module Contacts</a></li>
 </ul>
-You can adjust the templates provided within the source files to suit your own local requirements. 
-</p>
+You can adjust the templates provided within the source files to suit your own local requirements.</p> 
+<p>Follow these detailed instructions to run the programs and generate pages that are appropriate to your School or programme's specific needs and templates:   
+<a href="https://github.com/nicklightning/MOF-to-HTML-Converter/blob/Instructions-and-Resources/Detailed_Instructions.html">Detailed Instructions</a></p>

@@ -13,4 +13,4 @@
 </ul>
 You can adjust the templates provided within the source files to suit your own local requirements.</p> 
 <p>Follow these detailed instructions to run the programs and generate pages that are appropriate to your School or programme's specific needs and templates:   
-<a href="https://nicklightning.github.io/MOF-to-HTML-Converter/Detailed_Instructions.html">Detailed Instructions</a></p>
+<a href="https://nicklightning.github.io/MOF-to-HTML-Converter/Detailed_Instructions.html">Instructions</a></p>

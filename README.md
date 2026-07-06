@@ -1,6 +1,6 @@
 # MOF-to-HTML-Converter (intended for use by Newcastle University staff)
 <p>This program package reads information from Newcastle University module outline forms (MOFs) and renders it into attractive HTML pages that can be easily dropped into Canvas pages. The aim is to make it easy for you to meet the university's <a href = "https://www.ncl.ac.uk/learning-and-teaching/digital-technologies/canvas/baseline/">Canvas Baseline</a> policy without having to re-generate information that is already included on a MOF.</p> 
-<p>This repository will allow for a moderately-experienced Python user to download and configure everything they need to run the various programs for a School or degree programme. If you are reading this but don't have the knowhow, please get in touch with me (<a href="mailto:nick.walker@newcastle.ac.uk">Dr. Nick Walker</a>), School of Natural and Environmental Sciences, I may be able to help.</p>
+<p>This repository will allow for a moderately-experienced Python user to download and configure everything they need to run the various programs for a School or degree programme.</p>
 <p>If you have the inclination and the experience, you may wish to set up a Python virtual environment to run these programmes. If you want to do this, the supplied "requirements.txt" file contains the information which you'll need about the Python packages required. Alternatively;</p> 
 <ul>
 <li> Download and install Anaconda3 from the NUIT software centre (via the Start menu of your PC);</li> 

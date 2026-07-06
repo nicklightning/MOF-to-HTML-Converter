@@ -1,0 +1,22 @@
+<div style="text-align: left; margin: 40px 0;">
+    <p style="font-size: 1.1em; color: #333; margin-bottom: 15px;">{{ description|safe }}</p>
+    <a href="{{ slug }}"
+        target="_blank"
+        class="Button Button--primary"
+        style="
+            font-size: 1.2em;
+            padding: 15px 30px;
+            background-color: #007BFF;
+            color: white;
+            border: 2px solid #0056b3;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        "
+        onmouseover="this.style.backgroundColor='#0056b3'; this.style.boxShadow='0 6px 8px rgba(0, 0, 0, 0.2)';"
+        onmouseout="this.style.backgroundColor='#007BFF'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';" >
+        {{ button_text }}
+    </a>
+</div>

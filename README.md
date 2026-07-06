@@ -8,8 +8,8 @@
 </ul>
 <p>Here are some examples of generated html pages and the links they contain; 
 <ul>
-<li><a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-MI.html"> NES1404 Module Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-AI.html"> NES1404 Assessment Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/nes1404-MC.html"> NES1404 Module Contacts</a></li>
-<li><a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1401-MI.html"> NES1401 Module Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1401-AI.html"> NES1401 Assessment Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/nes1401-MC.html"> NES1401 Module Contacts</a></li>
+<li><a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-MI.html"> NES1404 Module Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-AI.html"> NES1404 Assessment Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1404-MC.html"> NES1404 Module Contacts</a></li>
+<li><a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1401-MI.html"> NES1401 Module Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1401-AI.html"> NES1401 Assessment Information</a>, <a href="https://nicklightning.github.io/MOF-to-HTML-Converter/NES1401-MC.html"> NES1401 Module Contacts</a></li>
 </ul>
 You can adjust the templates provided within the source files to suit your own local requirements.</p> 
 <p>Follow these detailed instructions to run the programs and generate pages that are appropriate to your School or programme's specific needs and templates:   
